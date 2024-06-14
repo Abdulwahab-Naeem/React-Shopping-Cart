@@ -30,7 +30,7 @@ const Navbar = ({setData,cart}) => {
     <>
     <header className='sticky-top'>
         <div className="nav-bar">
-            <Link to={'/'}className="brand">E-Commerce</Link>
+        <Link to={'/'} className="brand">E-Commerce</Link>
             <form onSubmit={handleSubmit} className="search-bar">
                 <input
                 value={searchTerm}
